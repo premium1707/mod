@@ -188,8 +188,8 @@ def pilih():
 								keluar()
 							else:
 								if zedd == '7':
-								os.system('rm -rf login.txt')
-									masuk()
+									os.system('rm -rf login.txt')
+										masuk()
                                 else:
 									if zedd == '0':
 										keluar()
