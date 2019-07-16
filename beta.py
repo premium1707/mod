@@ -190,10 +190,10 @@ def pilih():
 								if zedd == '7':
 									os.system('rm -rf login.txt')
 									masuk()
-                                else:
+								else:
 									if zedd == '0':
 										keluar()
-									else:
+									`else:
 										print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
 										pilih()
 
